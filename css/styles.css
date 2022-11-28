@@ -140,9 +140,6 @@ section {
   width: 60%;
 }
 
-@media (min-width: 576px) {
-}
-
 @media (min-width: 992px) {
   .title-section {
     text-align: left;
@@ -204,8 +201,6 @@ section {
     line-height: 1.5;
   }
 
-  .testimonial-carousel {
-  }
 }
 
 @media (min-width: 576px) {
