@@ -46,7 +46,7 @@
 
   <body>
     <header>
-      <div class="container-fluid colored-section">
+      <div class="container-fluid colored-section pt-lg-5 pb-lg-0">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
           <a class="navbar-brand" href="#">tindog</a>
@@ -84,6 +84,7 @@
         <div class="row">
           <div class="col-lg-6">
             <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
+
             <button type="button" class="btn btn-dark btn-lg download-button">
               <i class="fab fa-apple"></i> Download
             </button>
@@ -138,12 +139,15 @@
 
       <!-- Testimonials -->
 
-      <section class="testimonials-section colored-section container-fluid">
+      <section
+        class="testimonials-section colored-section container-fluid pb-5"
+      >
         <div
           id="testimonial-carousel"
-          class="carousel slide"
-          data-ride="false"
+          class="carousel slide testimonial-carousel"
           data-interval="false"
+          data-ride="carousel"
+          data-touch="true"
         >
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -194,7 +198,7 @@
 
       <!-- Press -->
 
-      <section class="press-section colored-section">
+      <section class="press-section colored-section pb-5">
         <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
         <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
         <img
@@ -272,7 +276,7 @@
       <!-- Call to Action -->
 
       <section id="cta" class="cta-section colored-section container-fluid">
-        <h3 class="big-heading">
+        <h3 class="big-heading my-5 my-lg-0">
           Find the True Love of Your Dog's Life Today.
         </h3>
         <button type="button" class="btn btn-dark btn-lg download-button">
@@ -290,7 +294,7 @@
 
     <footer id="footer" class="white-section">
       <section class="white-section container-fluid">
-        <p>
+        <div class="d-flex justify-content-center">
           <button type="button" class="btn btn-link">
             <i class="fab fa-twitter"></i>
           </button>
@@ -303,7 +307,7 @@
           <button type="button" class="btn btn-link">
             <i class="fas fa-envelope"></i>
           </button>
-        </p>
+        </div>
         <p>© Copyright 2020 TinDog</p>
       </section>
     </footer>
